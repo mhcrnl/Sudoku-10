@@ -4,6 +4,7 @@
 #include <iostream>
 #include <iomanip>
 #include <ctime>
+#include <cstdlib>
 
 using namespace std;
 
@@ -38,7 +39,7 @@ public:
 	// checks row if valid
 	//@param int - column
 	//@param int - number
-	
+
 	bool checkCol(int, int);
 	// check column
 	//@param int - row
@@ -121,7 +122,7 @@ public:
 	//getCount - returns number of assignments made
 
 	void setMenuChoice(int);
-	// sets menu choice 
+	// sets menu choice
 	//@int - choice
 
 	int getMenuChoice();
